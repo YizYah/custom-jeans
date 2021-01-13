@@ -1,6 +1,10 @@
 {
   "addedCode": {
     "standard": {
+      ".gitignore": {
+        "path": ".gitignore",
+        "extra": "\n.idea\n"
+      },
       "README.md": {
         "path": "README.md",
         "beginning": "\n",
@@ -9,12 +13,32 @@
         "badges": "utilitiespackageName\n\n[//]: # ( ns__start_section usageSection )\n\n[![Version](https://img.shields.io/npm/v/custom-jeans.svg)](https://npmjs.org/package/custom-jeans)\n[![Downloads/week](https://img.shields.io/npm/dw/custom-jeans.svg)](https://npmjs.org/package/custom-jeans)\n[![License](https://img.shields.io/npm/l/custom-jeans.svg)](https://github.com/YizYah/custom-jeans/blob/master/package.json)\n"
       },
       "src/index.ts": {
-        "path": "src/index.ts",
+        "path": "lib/index.js",
         "beginning": "\n"
       },
       "test/index.test.ts": {
         "path": "test/index.test.ts",
         "general": "\n// replace with whatever you'd like.  To start over with the default, remove everything including the\n// comment lines before and after.\n"
+      }
+    },
+    "static-grouping": {
+      "insertCustomCode.ts": {
+        "path": "lib/groupings/insertCustomCode.js",
+        "helpers": "\nimport { insertCustomChanges } from '../custom/insertCustomCode/insertCustomChanges';\n"
+      },
+      "storeCustomCode.ts": {
+        "path": "lib/groupings/storeCustomCode.js",
+        "helpers": "\nimport { storeCustomCode } from '../custom/storeCustomCode/storeCustomCode';\n"
+      },
+      "insertCustomCode.test.ts": {
+        "path": "test/groupings/insertCustomCode.test.ts",
+        "customImports": "\n",
+        "tests": "\n// replace everything in this tests section when you modify your code.\n// describe('insertCustomCode', () => {\n// })\n"
+      },
+      "storeCustomCode.test.ts": {
+        "path": "test/groupings/storeCustomCode.test.ts",
+        "customImports": "\n",
+        "tests": "\n// replace everything in this tests section when you modify your code.\n// describe('storeCustomCode', () => {\n// })\n"
       }
     }
   },
