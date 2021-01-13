@@ -1,6 +1,6 @@
 {
   "name": "custom-jeans",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "manages custom code for geenee templates",
   "main": "lib/index.js",
   "scripts": {
