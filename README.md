@@ -8,9 +8,9 @@
 [//]: # ( ns__start_section intro )
 
 [//]: # ( ns__custom_start description )
-custom-jeans
-======
+
 manages custom code for geenee templates
+![custom-jeans](src/custom/images/custom-jeans.jpg)
 
 [//]: # ( ns__custom_end description )
 
@@ -27,7 +27,7 @@ manages custom code for geenee templates
 [![License](https://img.shields.io/npm/l/custom-jeans.svg)](https://github.com/YizYah/custom-jeans/blob/master/package.json)
 
 
-This package is used in connection with [geenee](https://www.npmjs.com/package/geenee) templates.  If you want to generate a template, you can call the geenee cli.  Or, you can use the [geenee-spell](https://www.npmjs.com/package/geenee-spell) package to handle a complete regeneration within node.
+This package works with [geenee](https://www.npmjs.com/package/geenee) templates.  If you want to generate a template, you can call the geenee cli.  Or, you can use the [geenee-spell](https://www.npmjs.com/package/geenee-spell) package to handle a complete regeneration within node.
 
 [//]: # ( ns__custom_end badges )
 
