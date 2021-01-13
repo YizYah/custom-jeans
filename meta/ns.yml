@@ -1,0 +1,23 @@
+userClass: user
+codeName: MyApp
+template:
+  dir: /home/yisroel/packages/packrat-ts-all/packrat
+  name: null
+  version: 1
+starter: /home/yisroel/packages/custom-jeans-all/custom-jeans.starter
+general:
+  packageName: custom-jeans
+  author: YizYah
+  owner: YizYah
+  description: manages custom code for geenee templates
+  repositoryName: custom-jeans
+  license: MIT
+  multi: true
+static:
+  grouping:
+    storeCustomCode:
+      slug: storeCustomCode
+      specs: {}
+    insertCustomCode:
+      slug: insertCustomCode
+      specs: {}

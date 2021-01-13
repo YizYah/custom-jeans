@@ -1,0 +1,23 @@
+{
+  "addedCode": {
+    "standard": {
+      "README.md": {
+        "path": "README.md",
+        "beginning": "\n",
+        "description": "\ncustom-jeans\n======\nmanages custom code for geenee templates\n",
+        "afterDescription": "\n",
+        "badges": "utilitiespackageName\n\n[//]: # ( ns__start_section usageSection )\n\n[![Version](https://img.shields.io/npm/v/custom-jeans.svg)](https://npmjs.org/package/custom-jeans)\n[![Downloads/week](https://img.shields.io/npm/dw/custom-jeans.svg)](https://npmjs.org/package/custom-jeans)\n[![License](https://img.shields.io/npm/l/custom-jeans.svg)](https://github.com/YizYah/custom-jeans/blob/master/package.json)\n"
+      },
+      "src/index.ts": {
+        "path": "src/index.ts",
+        "beginning": "\n"
+      },
+      "test/index.test.ts": {
+        "path": "test/index.test.ts",
+        "general": "\n// replace with whatever you'd like.  To start over with the default, remove everything including the\n// comment lines before and after.\n"
+      }
+    }
+  },
+  "replacedCode": {},
+  "removedCode": {}
+}
